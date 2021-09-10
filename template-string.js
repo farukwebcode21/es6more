@@ -5,4 +5,8 @@ const multiLine = `This is  multi line
 how to solve this line do you knonw
 this is salamna khan history
 welcome to our new customer`
-console.log(multiLine);
+// console.log(multiLine);
+
+
+const fullSongs = `This Songs is , ${priya} Songs Name , ${meye} ${kobita} Thanks For lisining`;
+console.log(fullSongs)
