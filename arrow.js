@@ -7,7 +7,7 @@
 // }
 // console.log(2, 9);
 
-function functionName(num3, num4){
+/* function functionName(num3, num4){
    return num3 + num4;
     // return sum;
 }
@@ -16,4 +16,17 @@ console.log(functionName(20, 20));
 const variableName = (num1, num2, num5=7) => num1+ num2 + num5;
 console.log(variableName(20, 20));
 
-const name =['faruk', 'Rakib', 'Sharif', 'Kalam', 'Rohan'];
+const name =['faruk', 'Rakib', 'Sharif', 'Kalam', 'Rohan']; */
+
+// Regular Function
+/* function timesTwo(params){
+    return params * 2;
+}
+
+const result = timesTwo(4);
+console.log(result); */
+
+// Arrow Function
+let timesTwo = params => params * 2;
+const result = timesTwo(4); 
+console.log(result);
